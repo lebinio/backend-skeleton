@@ -1,0 +1,26 @@
+spring:
+    application:
+        name: skeleton-jh
+    profiles:
+        active: #spring.profiles.active#
+    jackson:
+        serialization.write_dates_as_timestamps: false
+    messages:
+        basename: i18n/messages
+    mvc:
+        favicon:
+            enabled: false
+    thymeleaf:
+        mode: XHTML
+    liquibase:
+        url: jdbc:mysql://localhost:3306/skeleton
+        user: lebinh
+        password: 12345678
+        change-log: classpath:/db/changelog.xml
+    mail:
+        host: localhost
+        port: 25
+        username:
+        password:
+
+application:

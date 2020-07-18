@@ -1,2 +1,3 @@
-# backend-skeleton
-Java back end skeleton project
+# skeleton-backend
+
+Skeleton back end Java project
